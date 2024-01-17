@@ -20,15 +20,15 @@ main {
     background-image: url("Images/DJI_0275.JPG");
     background-size: cover;
     background-position: left;
-    flex-grow: 1;
+    width: 35vw;
+    overflow: hidden;    
     border: solid 1px black;  /*DELETE LATER*/
 }
 
 .left-logo {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
+    align-items: center;    
     margin-top: 30vh;
     background-color: rgba(211, 211, 211, 0.3);
     font-size: 7vh;
@@ -38,7 +38,50 @@ main {
     height: 12vh;
 }
 
-.right {
-    flex-grow: 2;
+.right {    
+    width: 65vw;
     border: solid 1px blue; /*DELETE LATER*/
+}
+
+.right-top {
+    height: 35vh;
+    background-color: rgb(245, 245, 245);
+}
+
+.right-center {
+    height: 30vh;
+}
+
+.right-center h2 {
+    margin-left: 13.5vw;
+}
+
+.right-center form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.right-center label {    
+    width: 15vw;
+    display: block;
+}
+
+.right-center input {
+    width: 15vw;
+    padding: 5px;
+}
+
+.right-bottom {
+    height: 35vh;
+    background-color: rgb(245, 245, 245);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 8vw;
+    margin-top: 2vh;
 }
