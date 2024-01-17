@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+
+
+*, *::after, *::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {    
+    background-image: url("Images/DJI_0275.JPG");
+    background-size: cover;
+    background-position: left;
+    flex-grow: 1;
+    border: solid 1px black;  /*DELETE LATER*/
+}
+
+.left-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 30vh;
+    background-color: rgba(211, 211, 211, 0.3);
+    font-size: 7vh;
+}
+
+.left-logo .drone {
+    height: 12vh;
+}
+
+.right {
+    flex-grow: 2;
+    border: solid 1px blue; /*DELETE LATER*/
+}
