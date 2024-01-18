@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "shadows_into_light";
+    src: url(Fonts/ShadowsIntoLight-Regular.woff);
+    src: url(Fonts/ShadowsIntoLight-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -31,6 +39,7 @@ main {
     align-items: center;    
     margin-top: 30vh;
     background-color: rgba(211, 211, 211, 0.3);
+    font-family: "shadows_into_light", 'Courier New', Courier, monospace;
     font-size: 7vh;
 }
 
@@ -49,11 +58,17 @@ main {
 }
 
 .right-center {
-    height: 30vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 30vh;    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-top: solid 1px rgba(0, 0, 0, 0.25);
+    margin-bottom: 28px;
+    padding: 15px 0 50px 90px;
+    overflow: hidden;
 }
 
 .right-center h2 {
-    margin-left: 13.5vw;
+    margin-left: 0px;
 }
 
 .right-center form {
@@ -81,7 +96,7 @@ main {
 
 .row {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 8vw;
     margin-top: 2vh;
 }
