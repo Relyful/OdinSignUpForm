@@ -17,52 +17,56 @@
 
         <div class="right">
             <div class="right-top">
-
+                <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br/>Sign up now to get started.</h3>
+                <h3 class="gap">You know you want to.</h3>
             </div>
 
             <div class="right-center">
-                <h2>Let's fly!</h2>
-                <form>
+                <h2>Let's fly together!</h2>
+                <form id="myForm" method="get" action="#">
                     <div class="row">
                         <div class="cell">
-                            <label for="fname">First Name</label>
-                            <input type="text" id="fname" name="firstName">
+                            <label for="fname">FIRST NAME</label>
+                            <input type="text" id="fname" name="firstName" >
                         </div>
                         
                         <div class="cell">
-                            <label for="lname">Last Name</label>
-                            <input type="text" id="lname" name="lastName">
+                            <label for="lname">LAST NAME</label>
+                            <input type="text" id="lname" name="lastName" >
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="cell">
-                            <label for="email">EMAIL</label>
-                            <input type="email" id="email" name="email">
+                            <label for="email">EMAIL<span aria-label="required">*</span></label>
+                            <input type="email" id="email" name="email" required>
                         </div>
 
                         <div class="cell">
-                            <label for="tel">Phone Number</label>
+                            <label for="tel">PHONE NUMBER</label>
                             <input type="tel" id="tel" name="tel">
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="cell">
-                            <label for="pwd">Password</label>
-                            <input type="password" id="pwd" name="password">
+                            <label for="pwd">PASSWORD<span aria-label="required">*</span></label>
+                            <input type="password" id="pwd" name="password" required>
                         </div>
 
                         <div class="cell">
-                            <label for="cpwd">Password</label>
-                            <input type="password" id="cpwd" name="confirmPassword">
+                            <label for="cpwd">REPEAT PASSWORD<span aria-label="required">*</span>
+                            </label>
+                            <input type="password" id="cpwd" name="confirmPassword" required>
                         </div>
                     </div>
                 </form>
+                <p>Fields marked with * are required.</p>
             </div>
-
+            
             <div class="right-bottom">
-
+                <button type="submit" form="myForm">Create Account</button>
+                <p>Already have an account? <a href="#">Log In.</a></p>
             </div>
 
         </div>
