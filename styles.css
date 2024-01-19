@@ -30,7 +30,7 @@ main {
     background-position: left;
     width: 35vw;
     overflow: hidden;    
-    border: solid 1px black;  /*DELETE LATER*/
+    /* border: solid 1px black;  DELETE LATER */
 }
 
 .left-logo {
@@ -53,7 +53,7 @@ main {
     flex-direction: column;    
     width: 65vw;
     height: 100vh;
-    border: solid 1px rgb(0, 141, 184); /*DELETE LATER*/
+    /* border: solid 1px rgb(0, 141, 184); DELETE LATER */
 }
 
 .right-center,
