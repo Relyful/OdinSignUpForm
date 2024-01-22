@@ -48,6 +48,13 @@ main {
     height: 12vh;
 }
 
+.copyright {
+    margin-top: 62vh;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+
 .right {
     display: flex;
     flex-direction: column;    
@@ -123,7 +130,7 @@ main {
 }
 
 .right-center p {
-    margin-top: 2vh;
+    margin-top: 2.5vh;
     font-size: 12px;
 }
 
@@ -181,4 +188,19 @@ main {
 
 .right-center input:focus {
     outline: none;
+}
+
+.errormsg {
+    position: relative;
+    display: none;
+}
+
+.errormsg::after {    
+    width: 200px;
+    position: absolute;
+    content: 'Passwords must match!';
+    color: red;
+    top: 25px;
+    right: 50px;
+    font-size: 10px;
 }
